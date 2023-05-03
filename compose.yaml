@@ -8,7 +8,7 @@ services:
   app:
     build: .
     volumes:
-      - ./:/root/take_home_project
+      - ./:/root/python_dashboard
     command: run-app
     ports:
       - 8888:8888

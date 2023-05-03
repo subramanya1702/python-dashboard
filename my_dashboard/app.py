@@ -109,7 +109,7 @@ class Dashboard:
             Input("date-range", "end_date"),
             Input("refresh-button", "n_clicks")
         )(self.update_charts)
-        self.app.title = "Ark Biotech Take Home Project!"
+        self.app.title = "Python-Dash Dashboard!"
 
         # Initialize dashboard layout
         self.app.layout = html.Div(
@@ -118,11 +118,11 @@ class Dashboard:
                     children=[
                         html.P(children="☣️", className="header-emoji"),
                         html.H1(
-                            children="Ark Biotech", className="header-title"
+                            children="Python Dashboard", className="header-title"
                         ),
                         html.P(
                             children=(
-                                "Analyze the behavior of bioreactor temperature, pH, distilled oxygen and pressure"
+                                "Analyze the behavior of temperature, pH, distilled oxygen and pressure"
                             ),
                             className="header-description",
                         ),

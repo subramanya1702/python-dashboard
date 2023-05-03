@@ -18,7 +18,7 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 RUN pip install --upgrade pip setuptools wheel
 
 # Setup root home directory
-WORKDIR /root/take_home_project
+WORKDIR /root/python_dashboard
 
 # Install package
 COPY . .

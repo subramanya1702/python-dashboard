@@ -3,12 +3,12 @@ from setuptools import setup, find_packages
 setup(
     name='ark',
     version='1.0',
-    description='Ark Biotech Take Home Project',
-    packages=find_packages(include=["my_ark", "my_ark.*"]),
+    description='Python-Dash Dashboard',
+    packages=find_packages(include=["my_dashboard", "my_dashboard.*"]),
     include_package_data=True,
     entry_points={
         'console_scripts': [
-            'run-app=my_ark.app:main'
+            'run-app=my_dashboard.app:main'
         ]
     }
 )
