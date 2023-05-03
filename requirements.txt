@@ -1,0 +1,6 @@
+psycopg2-binary
+python-dotenv
+flask
+pandas==2.0
+dash
+setuptools
